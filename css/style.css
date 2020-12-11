@@ -1,6 +1,41 @@
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 .container {
   height: 100%;
   width: 100%;
-  background: #19A1AD;
-  background-image: url("/images/bg-pattern-top.svg");
+  /* background: #19A1AD; */
+  background: 
+  url("/images/bg-pattern-top.svg"), 
+  url("/images/bg-pattern-bottom.svg");
 }
+
+.card {
+  /* visibility: hidden; */
+  background-image: url("/images/bg-pattern-card.svg");
+  height: 400px;
+  width: 300px;
+  border: 1px solid #fff;
+  border-radius: 10%;
+  margin: 0 auto;
+}
+
+.card-inner {
+  text-align: center;
+}
+
+.card-inner img {
+  border-radius: 50%;
+  border: 6px solid #fff;
+}
+
+.container-inner {
+  background-color: #fff;
+}
+
+@media (min-width: 600px) {}
+
