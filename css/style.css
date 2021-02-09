@@ -24,11 +24,12 @@
     height: 100%;
     width: 100%;
     /* background: #19A1AD; */
-    background: url("/images/bg-pattern-top.svg"); /* url("/images/bg-pattern-bottom.svg"); */
+    background: url("/images/bg-pattern-top.svg") no-repeat -20em -12em, url("/images/bg-pattern-bottom.svg") no-repeat 10em 24em;
+    background-size: 32em;
   }
   
   .card {
-    visibility: hidden;
+    /* visibility: hidden; */
     height: 400px; /* medidas de height e width em px temporariamente*/
     width: 300px;
     background: #fff;
