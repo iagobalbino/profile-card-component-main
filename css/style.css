@@ -1,71 +1,79 @@
-body {
-  font: 18px 'Kumb Sans', sans-serif;
-}
+@media (min-width: 375px) {
 
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
 
-.container {
-  height: 100%;
-  width: 100%;
-  /* background: #19A1AD; */
-  background: 
-  url("/images/bg-pattern-top.svg"), 
-  url("/images/bg-pattern-bottom.svg");
+  body {
+    font: 18px 'Kumb Sans', sans-serif;
+    background: #19a2ae;
+  }
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .container {
+    height: 100%;
+    width: 100%;
+    /* background: #19A1AD; */
+    background: 
+    url("/images/bg-pattern-top.svg"), 
+    url("/images/bg-pattern-bottom.svg");
+  }
+  
+  .card {
+    /* visibility: hidden; */
+    background: #fff;
+    /* height: 200px;
+    width: 150px; */
+    border: 1px solid #fff;
+    border-radius: 10%;
+    margin: 0 auto;
+  }
+  
+  .card-inner {
+    background-image: url("/images/bg-pattern-card.svg");
+    text-align: center;
+  }
+  
+  .card-inner img {
+    position: relative;
+    top: 60px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+  }
+  
+  .container-inner {
+    padding-top: 60px;
+  }
+  
+  .container-header {
+    text-align: center;
+  }
+  
+  .container-header h1 {
+    font-weight: bold;
+  }
+  
+  .container-header h1 span {
+    font-weight: normal;
+    color:hsl(0, 0%, 59%);
+  }
+  
+  .container-header p {
+    color:hsl(0, 0%, 59%);
+    font-size: 14px;
+    padding-top: 10px;
+  }
+  
+  .container-footer {
+    /* text-align: center; */
+  }
+  
 }
-
-.card {
-  /* visibility: hidden; */
-  background: #fff;
-  height: 400px;
-  width: 300px;
-  border: 1px solid #fff;
-  border-radius: 10%;
-  margin: 0 auto;
-}
-
-.card-inner {
-  background-image: url("/images/bg-pattern-card.svg");
-  text-align: center;
-}
-
-.card-inner img {
-  position: relative;
-  top: 60px;
-  border-radius: 50%;
-  border: 6px solid #fff;
-}
-
-.container-inner {
-  padding-top: 60px;
-}
-
-.container-header {
-  text-align: center;
-}
-
-.container-header h1 {
-  font-weight: bold;
-}
-
-.container-header h1 span {
-  font-weight: normal;
-  color:hsl(0, 0%, 59%);
-}
-
-.container-header p {
-  color:hsl(0, 0%, 59%);
-  font-size: 14px;
-  padding-top: 10px;
-}
-
-.container-footer {
-  /* text-align: center; */
-}
-
-@media (min-width: 600px) {}
 
