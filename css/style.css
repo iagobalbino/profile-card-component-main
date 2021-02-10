@@ -30,8 +30,8 @@
   
   .card {
     /* visibility: hidden; */
-    height: 400px; /* medidas de height e width em px temporariamente*/
-    width: 300px;
+    height: 24em;
+    width: 18em;
     background: #fff;
     border: 1px solid #fff;
     border-radius: 10%;
@@ -40,7 +40,10 @@
   
   .card-inner {
     background-image: url("/images/bg-pattern-card.svg");
+    border-radius: 10% 10% 0 0;
     text-align: center;
+    height: 12em;
+    width: 18em;
   }
   
   .card-inner img {
