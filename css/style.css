@@ -7,7 +7,7 @@
 
   body {
     font: 18px 'Kumb Sans', sans-serif;
-    background: #19a2ae;
+    background: hsl(185, 75%, 39%);
   }
   
   footer {
@@ -79,13 +79,12 @@
   
   .card-footer {
     margin-top: 4em;
-    text-align: center;
+    padding-top: 1em;
     height: 30%;
-  }
-
-  .card-footer div {
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 1px solid lightgray;
   }
 
   .card-footer h1 {
@@ -93,6 +92,8 @@
   }
 
   .card-footer p {
+    letter-spacing: 1.5px;
+    text-align: center;
     font-size: 0.5em;
     color:hsl(0, 0%, 59%);;
   }
