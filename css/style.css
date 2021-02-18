@@ -24,7 +24,7 @@
     height: 100%;
     width: 100%;
     /* background: #19A1AD; */
-    background: url("/images/bg-pattern-top.svg") no-repeat -20em -12em, url("/images/bg-pattern-bottom.svg") no-repeat 10em 24em;
+    background: url("/images/bg-pattern-top.svg") no-repeat -20em -18em, url("/images/bg-pattern-bottom.svg") no-repeat 10em 25em;
     background-size: 32em;
   }
   
@@ -42,7 +42,7 @@
     background-image: url("/images/bg-pattern-card.svg");
     border-radius: 6% 6% 0 0;
     text-align: center;
-    height: 35%; /* O carde é separado na proporçaõ 40% 40% 20% */
+    height: 8em;
     width: 18em;
   }
   
@@ -54,15 +54,16 @@
   }
   
   .card-info {
-    padding-top: 4em;
-    height: 35%;
+    padding-top: 3em;
   }
   
   .info {
     text-align: center;
+    height: 3em;
   }
   
   .info h1 {
+    padding-top: 1.5em;
     font-weight: bold;
   }
   
@@ -80,7 +81,6 @@
   .card-footer {
     margin-top: 4em;
     padding-top: 1em;
-    height: 30%;
     border-top: 1px solid lightgray;
     text-align: center;
   }
@@ -100,6 +100,10 @@
     letter-spacing: 1.5px;
     font-size: 0.5em;
     color:hsl(0, 0%, 59%);;
+  }
+
+  .attribution {
+    text-align: center;
   }
   
 }
