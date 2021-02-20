@@ -63,11 +63,13 @@
   }
   
   .info h1 {
+    display: inline-block;
     padding-top: 1.5em;
     font-weight: bold;
   }
   
-  .info h1 span {
+  .info span {
+    margin-left: 0.5em;
     font-weight: normal;
     color:hsl(0, 0%, 59%);
   }
