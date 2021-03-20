@@ -21,7 +21,7 @@ footer {
   justify-content: center;
   height: 100%;
   width: 100%;
-  background: url("/images/bg-pattern-top.svg") no-repeat -20em -34em, url("/images/bg-pattern-bottom.svg") no-repeat 34em 20em;
+  background: url("../images/bg-pattern-top.svg") no-repeat -20em -34em, url("../images/bg-pattern-bottom.svg") no-repeat 34em 20em;
   background-size: 56em;
 }
 
@@ -37,7 +37,7 @@ footer {
 
   
 .card-inner {
-  background-image: url("/images/bg-pattern-card.svg");
+  background-image: url("../images/bg-pattern-card.svg");
   border-radius: 6% 6% 0 0;
   text-align: center;
   height: 8em;
@@ -108,7 +108,7 @@ footer {
 
 @media (max-width: 375px) {  
   .container {
-  background: url("/images/bg-pattern-top.svg") no-repeat -24em -18em, url("/images/bg-pattern-bottom.svg") no-repeat 9em 24em;
+  background: url("../images/bg-pattern-top.svg") no-repeat -24em -18em, url("../images/bg-pattern-bottom.svg") no-repeat 9em 24em;
   background-size: 36em;
   }
   
